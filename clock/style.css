@@ -1,0 +1,91 @@
+/* Use vw instead of px so that I don't have to use media queries for responsize clock*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: #000000;
+}
+.clock{
+    height: 60vw;
+    width: 60vw;
+    background-color: #ffffff;
+    border-radius: 100%;
+    border: 3px solid #AAAAAA;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+.hour-mark-h{
+    position: absolute;
+    width: 15px;
+    height: 3px;
+    background: #111111;
+}
+.hour-mark-v{
+    position: absolute;
+    width: 3px;
+    height: 15px;
+    background: #111111;
+}
+.three{
+    top:0;
+    bottom:0;
+    right:0;
+    margin: auto 0;
+}
+.six{
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.nine{
+    top:0;
+    bottom:0;
+    left:0;
+    margin: auto 0;
+}
+.twelve{
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: 0  auto;
+}
+.center{
+    width:1.5vw;
+    height:1.5vw;
+    position: absolute;
+    left: 0; right: 0; bottom: 0; top: 0;
+    margin: auto;
+    background: #000000;
+    border-radius: 100%;
+}
+#seconds{
+    position: absolute;
+    height:20vw;
+    width:1.5vw;
+    left: 0; right: 0; bottom: 20vw; top: 0;
+    margin: auto;
+    background: #000000;
+    -webkit-transform-origin: bottom;
+}
+#minutes{
+    position: absolute;
+    height:24vw;
+    width:2vw;
+    left: 0; right: 0; bottom: 24vw; top: 0;
+    margin: auto;
+    background: #000000;
+    -webkit-transform-origin: bottom;
+}
+#hours{
+    position: absolute;
+    height:12vw;
+    width:2.5vw;
+    left: 0; right: 0; bottom: 12vw; top: 0;
+    margin: auto;
+    background: #000000;
+    -webkit-transform-origin: bottom;
+}
