@@ -65,16 +65,16 @@ body{
 #seconds{
     position: absolute;
     height:20vw;
-    width:1.5vw;
+    width:.5vw;
     left: 0; right: 0; bottom: 20vw; top: 0;
     margin: auto;
-    background: #000000;
+    background: #BD3929;
     -webkit-transform-origin: bottom;
 }
 #minutes{
     position: absolute;
     height:24vw;
-    width:2vw;
+    width:1vw;
     left: 0; right: 0; bottom: 24vw; top: 0;
     margin: auto;
     background: #000000;
@@ -83,7 +83,7 @@ body{
 #hours{
     position: absolute;
     height:12vw;
-    width:2.5vw;
+    width:1.5vw;
     left: 0; right: 0; bottom: 12vw; top: 0;
     margin: auto;
     background: #000000;
