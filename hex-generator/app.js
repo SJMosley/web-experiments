@@ -13,7 +13,7 @@ function setBackground(){
 
 //get key press
 document.body.onkeyup = (e) => {
-    if(e.keyCode = 32){
+    if(e.keyCode = 32){//space bar
         setBackground();
     }
 }

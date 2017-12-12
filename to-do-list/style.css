@@ -1,0 +1,32 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #0079BF;
+    transition: all .5s ease;
+    margin: 32px;
+}
+#input{
+    padding-left: 8px;
+    height: auto;
+    width: 70vw;
+    font-size: 32px;
+    border-radius: 10px;
+}
+#input:focus{
+    outline: none;
+}
+ul{
+    width: 70vw;
+}
+li{
+    list-style: none;
+    background-color: #fff;
+    word-wrap: break-word;
+    height: auto;
+    padding: 4px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+.strike{
+    text-decoration: line-through;
+}
