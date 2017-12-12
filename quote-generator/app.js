@@ -48,3 +48,5 @@ document.body.onkeyup = (e) => {
         getQuote();
     }
 }
+
+window.onload = getQuote;

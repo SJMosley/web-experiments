@@ -1,0 +1,35 @@
+
+body{
+    margin-left: 32px;
+    margin-right: 32px;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    background: #202020;
+}
+h1{
+    color: #eeeeee;
+}
+.flex-container{
+    display:flex;
+}
+textarea{
+    width: 33%;
+    height:30vh;
+    min-height:30vh;
+    max-height:30vh;
+    background: #454545;
+    color: #eeeeee;
+    font-size: 14px;
+    border: none;
+    margin: 1px;
+}
+textarea:focus{
+    outline:none;
+}
+iframe{
+    background: #eee;
+    border: 1px;
+    height: 60vh;
+    width: 100%;
+    bottom:0;
+}
