@@ -27,6 +27,9 @@ li{
     border-radius: 10px;
     margin-bottom: 8px;
 }
+li:hover {
+	text-decoration: line-through;
+  }
 .strike{
     text-decoration: line-through;
 }

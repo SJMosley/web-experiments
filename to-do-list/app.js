@@ -50,12 +50,10 @@ function importList(){
         // console.log(ls);
         for (var i = 0; i < ls.length; i++) {
             let done = false;
-            console.log(ls[i]);
             if(ls[i]){ //make sure it isn't undefined
                 if(ls[i][0] == 'x' &&
                 ls[i][1] == 'x' &&
                 ls[i][2] == 'x'){
-                    console.log('i=0');
                     ls[i] = ls[i].slice(3);
                     done = true;
                 }
