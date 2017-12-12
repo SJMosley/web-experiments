@@ -6,7 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css" />
 	</head>
-<body>
-	<script type="text/javascript" src='./app.js'></script>
-</body>
+    <body>
+        <h1>Chat!</h1>
+        <form>
+            <input id="message" type="text" placeholder="message">
+            <input id="send" type="submit" value="Send">
+        </form>
+        <ul id="thread"></ul>
+    </body>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src='./client.js'></script>
 </html>
